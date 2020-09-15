@@ -60,3 +60,6 @@ tools/.libs/*
 tools/belladonna
 ar-lib
 .irecovery
+
+builds/
+libirecovery/
