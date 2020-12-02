@@ -44,8 +44,8 @@ function Make {
     mkdir builds
     cd builds
     Compile synackuk libirecovery
-    Compile tihmstar libgeneral
-    Compile tihmstar libfragmentzip
+    Compile LukeZGD libgeneral
+    Compile LukeZGD libfragmentzip
     git clone https://github.com/gwilymk/bin2c && cd bin2c && make && sudo cp bin2c /usr/local/bin && cd ..
     cd ..
     rm -rf builds
